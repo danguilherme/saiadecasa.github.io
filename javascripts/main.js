@@ -21,6 +21,7 @@
 
   function onEventsLoaded(events) {
     eventHandler = new Events(events);
+    eventsMap.init(events);
     //o objeto de eventos
     events = eventHandler.getAll();
 

@@ -1,22 +1,112 @@
+html, body {
+  height: 100%;
+}
+.content {
+  display: flex;
+  flex-flow: row wrap;
+}
+header,
+#map-canvas,
+#events,
+footer {
+  flex: 1 100%;
+}
+#map-canvas {
+  flex: 3;
+}
+#events {
+  flex: 1;
+}
+header {
+  order: 1;
+}
+#map-canvas {
+  order: 2;
+}
+#events {
+  order: 3;
+}
+footer {
+  order: 4;
+}
+header {
+  padding: 0 2em;
+}
+header h1, header p {
+  display: inline-block;
+  margin: 0;
+}
+header h2 {
+  font-size: 1.5em;
+}
+
+/**
+ * EVENTOS
+ */
+
+#events .sdc_staticmaps {
+  max-width: 100%;
+}
+
+/**
+ * MAPA
+ */
+
+#map-canvas {
+  /*width: 100%;*/
+  height: 500px;
+}
+#map-canvas .infobox {
+  width: 300px;
+  margin-top: 10px;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 2px solid #d5000d;
+  border-radius: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 0.9;
+}
+#map-canvas .infobox::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 138px;
+  height: 0;
+  width: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #d5000d;
+}
+#map-canvas .infobox .infobox-inner {
+  padding: .5em;
+}
+#map-canvas .infobox ul {
+  margin: 0;
+}
+#map-canvas .infobox li {
+  padding: 0;
+  list-style: none;
+}
+#map-canvas .infobox .fa {
+  display: inline-block;
+  width: 1em;
+}
 .event .past-event-notice {
   display: none;
   margin: 0;
   padding: 5px 1em;
-
   border: 1px solid #d5000d;
   border-radius: 3px;
   background-color: #ffd5d8;
 }
-
 .event .past-event-notice .fa-warning {
   vertical-align: middle;
   color: #d5000d;
 }
-
 .event.past .event-content {
   opacity: .5;
 }
-
 .event.past .past-event-notice {
   display: block;
 }
