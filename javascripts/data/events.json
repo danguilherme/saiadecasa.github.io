@@ -1,89 +1,5 @@
 {
-    "events": [
-        {
-            "titulo": " 5º Campinas Front-End Meetup",
-            "dataInicio": "2016-02-27",
-            "dataFim": "2016-02-27",
-            "local": "CDI Campinas (Minha Campinas)",
-            "endereco": "Av. Nestor Castanheira, 201, Campinas - SP",
-            "localizacao": {
-                "latitude": -22.914119,
-                "longitude": -47.067398
-            },
-            "link": "http://www.meetup.com/pt-BR/Campinas-Front-End-Meetup/events/228639046/"
-        },
-        {
-            "titulo": "Meetup #1 - Cianorte",
-            "dataInicio": "2016-03-01",
-            "dataFim": "2016-03-01",
-            "local": "Unipar",
-            "endereco": "Av. Brasil, 1123 - Zona 1, Cianorte, PR, Brasil",
-            "localizacao": {
-                "latitude": -23.6531682,
-                "longitude": -52.6151324
-            },
-            "link": "http://www.meetup.com/pt-BR/developerparana/events/228785524/"
-        },
-        {
-            "titulo": "Workshop Django Girls Campinas",
-            "dataInicio": "2016-03-12",
-            "dataFim": "2016-03-12",
-            "local": "IC - Instituto de Computação da UNICAMP",
-            "endereco": "Rua Saturnino de Brito, 20 - Campinas - SP",
-            "localizacao": {
-                "latitude": -22.8133626,
-                "longitude": -47.0636018
-            },
-            "link": "https://djangogirls.org/campinas/"
-        },
-        {
-            "titulo": "Front in Rio 2016 - HTML edition",
-            "dataInicio": "2016-03-12",
-            "dataFim": "2016-03-12",
-            "local": "Clube de Engenharia",
-            "endereco": "Av. Rio Branco, 124 - Centro, Rio de Janeiro - RJ",
-            "localizacao": {
-                "latitude": -22.904892,
-                "longitude": -43.1801744
-            },
-            "link": "http://www.eventick.com.br/fir-2016-html"
-        },
-        {
-            "titulo": "LinguÁgil",
-            "dataInicio": "2016-03-16",
-            "dataFim": "2016-03-19",
-            "local": "Campus Rio Vermelho",
-            "endereco": "Rua Theodomiro Batista, n. 422, Rio Vermelho - Salvador - BA",
-            "localizacao": {
-                "latitude": -13.0098638,
-                "longitude": -38.4837851
-            },
-            "link": "http://linguagil.com.br"
-        },
-        {
-            "titulo": "Meetup #2 - Maringá",
-            "dataInicio": "2016-03-19",
-            "dataFim": "2016-03-19",
-            "local": "Unicesumar",
-            "endereco": "Avenida Guedner, 1610 - Jardim Aclimação, Maringá - PR",
-            "localizacao": {
-                "latitude": -23.4427365,
-                "longitude": -51.919871
-            },
-            "link": "http://www.meetup.com/pt-BR/developerparana/events/228785576/"
-        },
-        {
-            "titulo": "PHP Experience 2016",
-            "dataInicio": "2016-03-21",
-            "dataFim": "2016-03-22",
-            "local": "Hotel Tivoli Mofarrej",
-            "endereco": "Alameda Santos, 1438 - São Paulo – SP",
-            "localizacao": {
-                "latitude": -23.5635729,
-                "longitude": -46.6581653
-            },
-            "link": "http://phpexperience2016.imasters.com.br/"
-        },
+    "events": [       
         {
             "titulo": "RuPy Campinas",
             "dataInicio": "2016-06-18",
@@ -95,6 +11,78 @@
                 "longitude": -47.066492
             },
             "link": "http://campinas.rupy.com.br"
+        },
+	{
+            "titulo": "PHP Light Day",
+            "dataInicio": "2016-06-30",
+            "dataFim": "2016-06-30",
+            "local": "IFSP - Votuporanga",
+            "endereco": "Av. Jerônimo Figueira da Costa, 3014 - Pozzobon, Votuporanga - SP",
+            "localizacao": {
+                "latitude":  -20.403870,
+                "longitude": -49.967668
+            },
+            "link": "http://phplightday.github.io/"
+        },        
+        {
+            "titulo": "Code In The Dark - Edição Brasil",
+            "dataInicio": "2016-07-01",
+            "dataFim": "2016-07-01",
+            "local": "Google Brasil (Escritório São Paulo)",
+            "endereco": "Av. Brg. Faria Lima, 3477 - Itaim Bibi, São Paulo - SP",
+            "localizacao": {
+                "latitude": -23.586439,
+                "longitude": -46.681878
+            },
+            "link": "http://codeinthedark.com.br/"
+        },
+        {
+            "titulo": "Frontinsampa 2016",
+            "dataInicio": "2016-07-02",
+            "dataFim": "2016-07-02",
+            "local": "Teatro do Colégio Maria Imaculada",
+            "endereco": "Av. Bernardino de Campos, 79 - Paraíso, São Paulo - SP",
+            "localizacao": {
+                "latitude": -23.571753,
+                "longitude": -46.643180
+            },
+            "link": "http://frontinsampa.com.br/"
+        },
+        {
+            "titulo": "FrontInBH 2016",
+            "dataInicio": "2016-08-06",
+            "dataFim": "2016-08-06",
+            "local": "Teatro Ney Soares",
+            "endereco": "R. Diamantina, 463 - Lagoinha - Belo Horizonte - MG - 31110-320",
+            "localizacao": {
+                "latitude": -19.9079062,
+                "longitude": -43.9415585
+            },
+            "link": "http://frontinbh.com.br/"
+        },
+        {
+            "titulo": "BrazilJS Conf 2016 - Edição Olimpíadas",
+            "dataInicio": "2016-08-26",
+            "dataFim": "2016-08-27",
+            "local": "Shopping Center BarraShoppingSul",
+            "endereco": "Av. Diário de Notícias, 300, bairro Cristal, Porto Alegre/RS",
+            "localizacao": {
+                "latitude": -30.084316,
+                "longitude": -51.245264
+            },
+            "link": "https://braziljs.org/conf"
+        },
+        {
+            "titulo": "Miniconf Elixir 2016",
+            "dataInicio": "2016-10-15",
+            "dataFim": "2016-10-15",
+            "local": "PUC Consolação",
+            "endereco": "R. Monte Alegre, 984 - Perdizes, São Paulo - SP",
+            "localizacao": {
+                "latitude": -23.537203,
+                "longitude": -46.670856
+            },
+            "link": "http://www.eventick.com.br/miniconf-elixir-2016#"
         }
     ]
 }
